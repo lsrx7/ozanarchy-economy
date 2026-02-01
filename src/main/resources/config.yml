@@ -1,0 +1,19 @@
+#Required, this is how data is stored
+mysql:
+  host: localhost
+  port: 3306
+  database: minecraft
+  username: root
+  password: password
+
+#Allows use of /ozeco commands
+admin:
+  commandsenabled: true
+  permission: 'ozanarchy.economy.admin'
+
+balanceenabled: true
+
+messages:
+  usage: '&fUsage: &c/ozeco [add/remove/balance] [player] [amount]'
+  nopermission: '&cYou dont have permission to use this command.'
+  playernotfound: '&cPlayer not found.'

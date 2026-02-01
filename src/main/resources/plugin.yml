@@ -1,0 +1,17 @@
+name: ozanarchy-economy
+version: '1.0'
+main: net.ozanarchy.ozanarchyEconomy.OzanarchyEconomy
+api-version: '1.21'
+
+commands:
+  ozeco:
+    description: 'Admin command for OzAnarchy Economy API'
+    usage: '/ozeco [add/remove/balance] [player] [amount]'
+  balance:
+    aliases: [bal, money]
+    description: 'Check you balance.'
+
+permissions:
+  ozanarchy.economy.admin:
+    default: op
+    description: 'Allows use of admin commands for OzAnarchy Economy API'
